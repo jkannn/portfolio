@@ -1,35 +1,56 @@
 
 body {
-	background: linear-gradient(to bottom right, #ffffff 12%, #ebefec);
-  font-family: 'Open-sans', sans-serif;
-  
-  font-weight:lighter;
-  letter-spacing:6px;
+	background: linear-gradient(to bottom right, #ffffff 30%, #ebefec);
+	font-family: 'Open-sans', sans-serif;
+	
+	font-weight:lighter;
+	letter-spacing:5px;
 
-  
-  text-align:center;
+	
+	text-align:center;
 
-  
+	
 }
 #myname{
+	margin:auto;
 	font-size:40px;
 	text-transform:uppercase;
-	padding:10px;
-	margin:0px;
-
+	font-family: 'Dosis', sans-serif;
+	color:black;
+	padding: 1px 3px;
+	display:block;
+	background-color:#ffffff;
+	border: 1px solid;
+	border-radius: 2px;
+	-webkit-border-radius:2px;
+	border-width: 2px;
+	color:#000000;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	letter-spacing:2.5px;
 
 }
+
+#myname:hover{
+	background-color:#AFEEEE;
+	color:white;
+
+}
+
 #blurb{
 	font-size:12px;
 	text-transform:uppercase;
+	font-family:'dosis', sans-serif;
+	padding-top: 5px;
 
 }
 #abouthomepage{
 	text-align:center;
-	
 	color: black;
 	font-size:18px;
 	text-transform:lowercase;
+	
 	
 
 }
@@ -38,24 +59,47 @@ body {
 
 
 }
-#typinggif{
-	text-align: center;
-}
-
 #abouthomepage ul li{
 
 	display: inline; padding: 15px;
 }
+.imgtext1{
+	margin-top:10px;
+	display:inline-block;
+}
+.imageText1{
+	border-radius:2px;
+	letter-spacing: 1px;
+	font-family:'dosis', sans-serif;
+	font-size: 26px;
+	overflow: hidden;
+	position:relative;
+	margin: 10px 0px 40px 15px;
+}
+
+.textjer{
+	position: relative;
+	padding-left:200px;
+	height: 244px;
+	width: 350px;
+	text-align:left;
+	bottom: 0;
+	left: 0px;
+	float:right;
+}
+.ramen{
+	
+}
+
 
 .facebook{
 	height:36px;
 	width:36px;
-display:inline-block;
-text-align:center;
+	display:inline-block;
+	text-align:center;
 }
 button, .facebook{
 	border-radius:7px;
-
 }
 
 .facebook:hover{
@@ -89,6 +133,9 @@ button, .linkedlin{
 }
 .aboutpage{
 	display: inline-block;
+	transition: all 0.25s ease-in-out;
+	-webkit-transition:all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
 
 }
 .aboutpage a {
@@ -101,6 +148,9 @@ button, .linkedlin{
 }
 .contactpage{
 	display: inline-block;
+	transition: all 0.25s ease-in-out;
+	-webkit-transition:all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
 }
 .contactpage a{
 	color:#000000;
@@ -108,22 +158,27 @@ button, .linkedlin{
 }
 
 .contactpage:hover{
-text-shadow: 1.5px 1.5px #808080;
+	text-shadow: 1.5px 1.5px #808080;
 }
 .projects{
 	display:inline-block;
+	transition: all 0.25s ease-in-out;
+	-webkit-transition:all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
 }
 .projects a{ 
 	color: #000000;
 	text-decoration:none;
- }
- 
- .projects:hover{
- 	text-shadow: 1.5px 1.5px #808080;
- }
+}
+
+.projects:hover{
+	text-shadow: 1.5px 1.5px #808080;
+}
 .resume{
 	display:inline-block;
-
+	transition: all 0.25s ease-in-out;
+	-webkit-transition:all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
 }
 .resume a {
 	color: #000000;
@@ -135,4 +190,6 @@ text-shadow: 1.5px 1.5px #808080;
 .copyright{
 	font-size:13px;
 	letter-spacing:0px;
+	font-style:italic;
+	
 }
