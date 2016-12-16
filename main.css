@@ -1,19 +1,24 @@
 
 body {
-	background: linear-gradient(to bottom right, #ffffff 30%, #ebefec);
+	background: linear-gradient(to bottom right, #ffffff 40%, #ebefec 58%, #000000);
 	font-family: 'Open-sans', sans-serif;
-	
+
 	font-weight:lighter;
 	letter-spacing:5px;
 
-	
-	text-align:center;
 
+	text-align:center;
 	
+
+}
+#home{
+
+margin-top: 307.5px;
+	height:615px;
 }
 #myname{
 	margin:auto;
-	font-size:40px;
+	font-size:69px;
 	text-transform:uppercase;
 	font-family: 'Dosis', sans-serif;
 	color:black;
@@ -29,7 +34,6 @@ body {
 	-webkit-transition:all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	letter-spacing:2.5px;
-
 }
 
 #myname:hover{
@@ -45,32 +49,32 @@ body {
 	padding-top: 5px;
 
 }
+/* ABOUT ME */
+#aboutme{
+	height: 615px;
+	margin-top: 307.5px;
+
+}
 #abouthomepage{
 	text-align:center;
 	color: black;
 	font-size:18px;
 	text-transform:lowercase;
-	
-	
-
 }
-#abouthomepage ul{
-	border-top: 1px black solid; border-bottom: 1px black solid; margin 20px 0; padding: 10px 0;
 
-
-}
 #abouthomepage ul li{
-
 	display: inline; padding: 15px;
 }
+
 .imgtext1{
 	margin-top:10px;
 	display:inline-block;
 }
 .imageText1{
+	font-weight:lighter;
 	border-radius:2px;
 	letter-spacing: 1px;
-	font-family:'dosis', sans-serif;
+	font-family:'Open-sans', sans-serif;
 	font-size: 26px;
 	overflow: hidden;
 	position:relative;
@@ -86,12 +90,25 @@ body {
 	bottom: 0;
 	left: 0px;
 	float:right;
+	font-weight:100;
 }
 .ramen{
-	
+	text-decoration: none;
+	color:#FF69B4;
+}
+.curious{
+	text-decoration: none;
+	color:#FFD700;
+}
+
+/* EXPERIENCE SECTION */
+#experienceSection{
+	height:615px;
+	margin-top: 307.5px;
 }
 
 
+/* social media buttons */
 .facebook{
 	height:36px;
 	width:36px;
@@ -160,13 +177,13 @@ button, .linkedlin{
 .contactpage:hover{
 	text-shadow: 1.5px 1.5px #808080;
 }
-.projects{
+.experience{
 	display:inline-block;
 	transition: all 0.25s ease-in-out;
 	-webkit-transition:all 0.25s ease-in-out;
 	-moz-transition: all 0.25s ease-in-out;
 }
-.projects a{ 
+.experience a{ 
 	color: #000000;
 	text-decoration:none;
 }
@@ -193,3 +210,4 @@ button, .linkedlin{
 	font-style:italic;
 	
 }
+
