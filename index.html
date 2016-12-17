@@ -11,22 +11,8 @@
    <link rel="stylesheet" type="text/css"
    href="https://fonts.googleapis.com/css?family=open+sans">
    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-<!-- bEGIN HERE -->
-<!--
-<script>
-
-$(document).ready(function){
    
-   setBindings();
-});
 
-function setBindings() {
-   $("nav a").click(function(e)){
-      alert('hit');
-   })
-}
-</script>
--->
 </head>
 
 <!--Color Changing Name -->
@@ -38,27 +24,6 @@ function setBindings() {
 
    <!-- end color changing button name-->
 
-  <style style="text/css">
-div.slide-right {
-  width:100%;
-  overflow:hidden;
-}
-div.slide-right p {
-  animation: 10s slide-right;
-}
-
-@keyframes slide-right {
-  from {
-    margin-left: -100%;
-    width: 300%; 
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-</style>
 
 <div id="blurb">
 <p><span style="color:green;font-weight:bold;">Laugh</span> because it's funny. <span style="color:blue;font-weight:bold">Cry</span> because you're sad. <span style="color:red;font-weight:bold">Ragequit</span> when your code doesn't run.</p>
@@ -70,15 +35,22 @@ div.slide-right p {
       <li><div class="aboutpage"><a href="#aboutme">about</a></div></li>
       <li><div class="experience"><a href="#experienceSection">experience</a></div></li>
       <li><div class="resume"><a href="resume.html">resume</a></div></li>
-      <li><div class="contactpage">contact</div></li>
+      <li><div class="contactpage"><a href="#contactSection">contact</a></div></li>
    </ul>
 </div>
 </div>
 <!-- Picture and Text Intro -->
 <section id="aboutme">
-<div class="imgtext1">
+<div class="aboutPageContainer">
    <div class="imageText1"><img src="JeremyKanPicture.jpg" width="300" height="335">
-      <h3 class="textjer">Hello, I'm Jeremy. <br><br><a class="ramen" href="google.com">Ramen</a> lover & <a class="curious" href= "google.com">curious george</a> supporter.<br><br> Welcome to my website. <br>
+
+      <h3 class="textjer">Hello, I'm Jeremy.</h3><br>
+      <p class="helloJer">I love to cook, code, and create—a coincidental alliteration that suits my personality perfectly.<br>I'm a current Computer Information Systems major at Cal Poly Pomona looking for opportunities to enhance my knowledge from a technical and tactical perspective.</p>
+      <br>
+     <h3 class="foodie"><a class="ramen" href="http://la.eater.com/maps/best-ramen-shops-los-angeles" target="_blank">Ramen</a> fanatic & real life 
+      <a class="curious" href= "https://www.sciencedaily.com/releases/2016/12/161212134605.htm" target="_blank"><br>curious george.</a></h3>
+      <h3 class="welcomeWeb">Welcome to my website. <br></h3>
+      <br><br><br><h6 class="someExperience">some of my experience includes. . .</h6>
 
       </h3>
       
@@ -90,14 +62,17 @@ div.slide-right p {
 </section>
 
 
+<section id="contactSection">
+</section>
+
 <!-- Social Media Stuff -->
 
 <div class = "socialmedia">
    <div class="facebook">
-      <a href="https://www.facebook.com/people/Jeremy-Kan/100001552955898"><img src="Facebook-color.svg" height="36"</IMG></a></div>
-      <div class="github"> <a href="https://github.com/jkannn"><img src="Github-color.svg" height="36"</IMG></a>
+      <a href="https://www.facebook.com/people/Jeremy-Kan/100001552955898" target="_blank"><img src="Facebook-color.svg" height="36"</IMG></a></div>
+      <div class="github"> <a href="https://github.com/jkannn" target="_blank"><img src="Github-color.svg" height="36"</IMG></a>
       </div>
-      <div class="linkedin"><a href="https://www.linkedin.com/in/jeremy-kan-b22392b8"><img src="LinkedIn-color.svg" height="36"</IMG></a>
+      <div class="linkedin"><a href="https://www.linkedin.com/in/jeremy-kan-b22392b8" target="_blank"><img src="LinkedIn-color.svg" height="36"</IMG></a>
       </div>
       <div class ="copyright">
          &copy; jeremy kan 2016
@@ -105,7 +80,8 @@ div.slide-right p {
 
 <script src="First Site/jquery-3.1.1.min.js">
 </script>
-<script src="First Site/website.js"</script>
+
+
    </body>
 
    </html>
