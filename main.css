@@ -1,6 +1,6 @@
 
 body {
-	background: linear-gradient(to bottom right, #ffffff 40%, #ebefec 58%, #000000);
+	background:#ffffff;
 	font-family: 'Open-sans', sans-serif;
 
 	font-weight:lighter;
@@ -13,10 +13,14 @@ body {
 }
 #home{
 
-margin-top: 307.5px;
 	height:615px;
+	padding-top:307.5px;
+	background: linear-gradient(to bottom right, #ffffff 50%, #ebefec 30%, #000000);
+
+	
 }
 #myname{
+	
 	margin:auto;
 	font-size:69px;
 	text-transform:uppercase;
@@ -37,8 +41,9 @@ margin-top: 307.5px;
 }
 
 #myname:hover{
-	background-color:#AFEEEE;
+	background-color:#000000;
 	color:white;
+	text-transform: 
 
 }
 
@@ -47,13 +52,25 @@ margin-top: 307.5px;
 	text-transform:uppercase;
 	font-family:'dosis', sans-serif;
 	padding-top: 5px;
+	letter-spacing:3px;
+
+
+	/*animation: slide 30s linear infinite;*/
+
+
 
 }
+/*
+#keyframes slide{
+	0
+}
+*/
+
 /* ABOUT ME */
 #aboutme{
 	height: 615px;
-	margin-top: 307.5px;
-
+	padding-top: 307.5px;
+	background: linear-gradient( 36.5deg, #ffffff 50%, #ebefec 30%, #000000 );
 }
 #abouthomepage{
 	text-align:center;
@@ -67,7 +84,7 @@ margin-top: 307.5px;
 }
 
 .imgtext1{
-	margin-top:10px;
+	padding-top:10px;
 	display:inline-block;
 }
 .imageText1{
@@ -91,6 +108,8 @@ margin-top: 307.5px;
 	left: 0px;
 	float:right;
 	font-weight:100;
+	text-transform: lowercase;
+	letter-spacing: 2px;
 }
 .ramen{
 	text-decoration: none;
@@ -104,7 +123,8 @@ margin-top: 307.5px;
 /* EXPERIENCE SECTION */
 #experienceSection{
 	height:615px;
-	margin-top: 307.5px;
+	padding-top: 307.5px;
+	background: linear-gradient( 195deg, #ffffff 30%, #ebefec 40%, #000000 );
 }
 
 
@@ -188,7 +208,7 @@ button, .linkedlin{
 	text-decoration:none;
 }
 
-.projects:hover{
+.experience:hover{
 	text-shadow: 1.5px 1.5px #808080;
 }
 .resume{
