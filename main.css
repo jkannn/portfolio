@@ -1,26 +1,12 @@
-
 body {
 	background:#ffffff;
 	font-family: 'Open-sans', sans-serif;
-
 	font-weight:lighter;
 	letter-spacing:5px;
-
-
 	text-align:center;
-	
-
 }
-#home{
 
-	height:615px;
-	padding-top:307.5px;
-	background: linear-gradient(to bottom right, #ffffff 50%, #ebefec 30%, #000000);
-
-	
-}
 #myname{
-	
 	margin:auto;
 	font-size:69px;
 	text-transform:uppercase;
@@ -43,49 +29,56 @@ body {
 #myname:hover{
 	background-color:#000000;
 	color:white;
-	text-transform: 
-
+	
 }
 
+#home{
+	height:580px;
+	padding-top:290px;
+	background: linear-gradient(to bottom right, #ffffff 50%, #ebefec 30%, #000000);
+}
+/* ABOUT ME */
+#aboutme{
+	height: 760px;
+	
+	background: linear-gradient(to top right, #ffffff 50%, #ebefec 30%, #000000 );
+}
+.helloJer{
+	font-size:13px;
+	text-align:left;
+	display:inline-block;
+}
+/* EXPERIENCE SECTION */
+#experienceSection{
+	height:580px;
+	padding-top: 290px;
+	background: linear-gradient( 180deg, #ffffff 40%, #ebefec 20%, #2F4F4F );
+}
+#contactSection{
+	height:580px;
+	padding-top:290px;
+	background: linear-gradient(360deg, #ffffff 40%, #ebefec 20%, #2F4F4F);
+}
 #blurb{
 	font-size:12px;
 	text-transform:uppercase;
 	font-family:'dosis', sans-serif;
-	padding-top: 5px;
+	padding-top: 1px;
 	letter-spacing:3px;
-
-
-	/*animation: slide 30s linear infinite;*/
-
-
-
-}
-/*
-#keyframes slide{
-	0
-}
-*/
-
-/* ABOUT ME */
-#aboutme{
-	height: 615px;
-	padding-top: 307.5px;
-	background: linear-gradient( 31.4deg, #ffffff 50%, #ebefec 30%, #000000 );
 }
 #abouthomepage{
-	text-align:center;
 	color: black;
 	font-size:18px;
 	text-transform:lowercase;
 }
-
 #abouthomepage ul li{
 	display: inline; padding: 15px;
 }
-
-.imgtext1{
-	padding-top:10px;
+.aboutPageContainer{
+	
 	display:inline-block;
+	height:500px;
+	width:500px;
 }
 .imageText1{
 	font-weight:lighter;
@@ -95,21 +88,29 @@ body {
 	font-size: 26px;
 	overflow: hidden;
 	position:relative;
-	margin: 10px 0px 40px 15px;
+	
 }
-
 .textjer{
-	position: relative;
-	padding-left:200px;
-	height: 244px;
-	width: 350px;
-	text-align:left;
-	bottom: 0;
-	left: 0px;
-	float:right;
-	font-weight:100;
-	text-transform: lowercase;
-	letter-spacing: 2px;
+display:inline-block;
+text-transform:lowercase;
+font-weight:100;
+	
+}
+.foodie{
+display:inline-block;
+text-transform:lowercase;
+font-weight:100;
+}
+.welcomeWeb{
+	display:inline-block;
+	text-transform:lowercase;
+font-weight:100;
+}
+.someExperience{
+	font-family:'Open-sans', sans-serif;
+	font-weight:bold;
+	letter-spacing:2px;
+	padding-top:55px;
 }
 .ramen{
 	text-decoration: none;
@@ -119,15 +120,6 @@ body {
 	text-decoration: none;
 	color:#FFD700;
 }
-
-/* EXPERIENCE SECTION */
-#experienceSection{
-	height:615px;
-	padding-top: 307.5px;
-	background: linear-gradient( 195deg, #ffffff 30%, #ebefec 40%, #000000 );
-}
-
-
 /* social media buttons */
 .facebook{
 	height:36px;
@@ -168,6 +160,7 @@ button, .linkedlin{
 .linkedin:hover{
 	background-color: 	#6495ED;
 }
+/* END SOCIAL MEDIA BUTTONS */
 .aboutpage{
 	display: inline-block;
 	transition: all 0.25s ease-in-out;
@@ -228,6 +221,8 @@ button, .linkedlin{
 	font-size:13px;
 	letter-spacing:0px;
 	font-style:italic;
+	float:right;
 	
 }
+
 
