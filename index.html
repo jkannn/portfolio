@@ -11,21 +11,58 @@
    <link rel="stylesheet" type="text/css"
    href="https://fonts.googleapis.com/css?family=open+sans">
    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+<!-- bEGIN HERE -->
+<!--
+<script>
 
+$(document).ready(function){
+   
+   setBindings();
+});
+
+function setBindings() {
+   $("nav a").click(function(e)){
+      alert('hit');
+   })
+}
+</script>
+-->
 </head>
 
 <!--Color Changing Name -->
 
 <body>
-<section id="home">
-   <button id="myname" type="button">
-      Jeremy Kan
-   </button>
+<div id="home" class="header">
+  <h1><button id="myname" type="button">Jeremy Kan
+   </button></h1>
 
-   <div id="blurb"
-   <p style="text-align:center;">Bay Area, CA 
-   </p>
-   </div>
+   <!-- end color changing button name-->
+
+  <style style="text/css">
+div.slide-right {
+  width:100%;
+  overflow:hidden;
+}
+div.slide-right p {
+  animation: 10s slide-right;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+</style>
+
+<div id="blurb">
+<p><span style="color:green;font-weight:bold;">Laugh</span> because it's funny. <span style="color:blue;font-weight:bold">Cry</span> because you're sad. <span style="color:red;font-weight:bold">Ragequit</span> when your code doesn't run.</p>
+</div>
 
 <!-- Nav Bar -->
 <div id="abouthomepage">
@@ -36,7 +73,7 @@
       <li><div class="contactpage">contact</div></li>
    </ul>
 </div>
-</section>
+</div>
 <!-- Picture and Text Intro -->
 <section id="aboutme">
 <div class="imgtext1">
