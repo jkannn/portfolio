@@ -46,112 +46,49 @@ body {
     .page-header h1 {
         font-size: 69px;
     }
-    /*
-#nav{
-	display:block;
-	color:#000000;
-	text-align:center;
-	
-	
-}
-#nav a{
-	font-size:2.5em;
-	margin: 0 0.25em 0 0.25em;
-	opacity:0.4;
-	outline:0;
-		-moz-transition: opacity .25s ease-in-out;
-					-webkit-transition: opacity .25s ease-in-out;
-					-ms-transition: opacity .25s ease-in-out;
-					transition: opacity .25s ease-in-out;
-	text-decoration:none;
-	color:black;
-	
-	
-}
-#nav a:before{
-	font-size:0.8em;
-}
-#nav a:after{
-	
-						display: block;
-						position: absolute;
-						left: 50%;
-						bottom: -0.75em;
-						margin-left: -0.5em;
-						border-bottom: solid 0em #ffffff;
-						border-left: solid 0.5em transparent;
-						border-right: solid 0.5em transparent;
-						-moz-transition: border-bottom-width .25s ease-in-out;
-						-webkit-transition: border-bottom-width .25s ease-in-out;
-						-ms-transition: border-bottom-width .25s ease-in-out;
-						transition: border-bottom-width .25s ease-in-out;
-}
-#nav a span {
-						display: block;
-						
-						background:#000000;
-						color: #ffffff;
-						top: -2.75em;
-						font-size: 0.5em;
-						height: 2.25em;
-						line-height: 2.25em;
-						
-						width: wrap; 
-						padding: 0px 3px 0px 5px;
-						opacity:0;
-						font-family:'dosis',sans-serif;
-						border-radius:2px;
-					}
-					#nav a:hover {
-						opacity: 1.0;
-					}
 
-						#nav a:hover span {
-							opacity: 1.0;
-						}
-
-					#nav a.active {
-						opacity: 1.0;
-					}
-
-						#nav a.active:after {
-							border-bottom-width: 0.5em;
-						}*/
-    /* SOCIAL MEDIA BUTTONS */
-    
-    #socialmedias {
-        float: right;
+   
+    .githubButton {
+        padding-right: 10px;
+        color: #000000;
+        opacity:0.7;
+       
     }
-    #socialmedias a {
-        opacity: .5;
-    }
-    #socialmedias a:hover {
-        opacity: 1.0;
-        -moz-transition: opacity .25s ease-in-out;
+    .githubButton:hover {
+         color: #000000;
+         opacity:1.2;
+         -moz-transition: opacity .25s ease-in-out;
         -webkit-transition: opacity .25s ease-in-out;
         -ms-transition: opacity .25s ease-in-out;
         transition: opacity .25s ease-in-out;
     }
-    .githubButton {
-        padding-right: 10px;
-        color: gray;
-    }
-    .githubButton:hover {
-        color: #000000;
-    }
     .facebookButton {
         padding-right: 10px;
-        color: gray;
+         color: #3B5998;
+         opacity:0.7;
     }
     .facebookButton:hover {
-        color: #3B5998;
+    	opacity:1.2;
+    	 color: #3B5998;    	 
+    	 -moz-transition: opacity .25s ease-in-out;
+        -webkit-transition: opacity .25s ease-in-out;
+        -ms-transition: opacity .25s ease-in-out;
+        transition: opacity .25s ease-in-out;
+       
     }
     .linkedinButton {
         padding-right: 10px;
-        color: gray;
+        color: #0077B5;
+        opacity:0.7;
     }
     .linkedinButton:hover {
-        color: #0077B5;
+    	color: #0077B5;
+    	opacity:1.2;
+    	 -moz-transition: opacity .25s ease-in-out;
+        -webkit-transition: opacity .25s ease-in-out;
+        -ms-transition: opacity .25s ease-in-out;
+        transition: opacity .25s ease-in-out;
+        
     }
     /*---END---SOCIAL MEDIA----*/
     
