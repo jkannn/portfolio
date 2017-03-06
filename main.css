@@ -1,6 +1,6 @@
 body {
     font-family: 'open-sans', sans-serif;
-    background: linear-gradient(to bottom right, #ffffff 50%, #ebefec 30%, #000000);
+    background: #eee;
     overflow-y: scroll;
 }
 /* Desktop */
@@ -17,7 +17,7 @@ body {
     }
     .page-header {
         text-align: center;
-        background-color: #ebefec;
+        background-color: #6495ED;
         height: 650px;
     }
     .page-header h1 {
