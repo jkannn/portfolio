@@ -124,7 +124,7 @@ body {
     }
     .tab-panels ul li.active {
         color: #fff;
-        background:	#F0F8FF;
+        background:		#5F9EA0;
     }
     .tab-panels .panel {
         display: none;
